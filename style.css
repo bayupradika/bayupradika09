@@ -300,7 +300,6 @@ footer .credit a{
     .about .row{
         flex-wrap: wrap;
     }
-
     .about .row .about-img img{
         height: 24rem;
         object-fit: cover;
@@ -332,5 +331,9 @@ footer .credit a{
 @media (max-width: 450px) {
     html{
         font-size: 55%;
+    }
+    .hero .content{
+        max-width: 100vw;
+        border-radius: 10px;
     }
 }
