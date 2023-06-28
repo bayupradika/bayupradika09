@@ -102,9 +102,9 @@ body{
 
 .hero .content{
     background-color: rgba(0,0,0,0.6);
-    padding: 1.4rem 7%;
-    max-width: 55rem;
-    border-radius: 20px;
+    padding: 0.5rem 5%;
+    max-width: 47rem;
+    border-radius: 10px;
 }
 .hero .content h1{
     font-size: 5rem;
@@ -135,7 +135,7 @@ body{
 
 /* about */
 .about, .menu, .contact {
-    padding: 8rem 7% 1.4rem;
+    padding: 7rem 7% 1.4rem;
 }
 .about h2, .menu h2 , .contact h2{
     text-align: center;
@@ -157,7 +157,7 @@ body{
     border-radius: 5%;
 }
 .about .row .content{
-    flex: 1 1 35rem;
+    flex: 1 1 55rem;
     padding: 0 1rem;
 }
 
@@ -238,7 +238,7 @@ footer .socials a{
     margin: 1rem;
 }
 footer .socials a:hover, footer .links a:hover{
-    color: var(--bg);
+    color: var(--primary);
 }
 footer .links{
     margin-bottom: 1.4rem;
