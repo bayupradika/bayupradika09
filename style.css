@@ -33,8 +33,10 @@ body{
     z-index: 9999;
 }
 
-.navbar .navbar-logo img{
-    width: 100px;
+.navbar{
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 700;
 }
 
 .navbar .navbar-nav a{
