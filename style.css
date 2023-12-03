@@ -131,15 +131,15 @@ body{
 }
 
 /* about */
-.about, .menu, .contact {
+.about, .menu, .menu2, .contact {
     padding: 7rem 7% 1.4rem;
 }
-.about h2, .menu h2 , .contact h2{
+.about h2, .menu h2 , .menu2 h2 , .contact h2{
     text-align: center;
     font-size: 2.6rem;
     margin-bottom: 3rem;
 }
-.about h2 span, .menu h2 span , .contact h2 span{
+.about h2 span, .menu h2 span ,.menu2 h2 span,  .contact h2 span{
     color: var(--primary);
 }
 .about .row{
@@ -170,7 +170,7 @@ body{
 }
 
 /* menu */
-.menu h2, .contact h2{
+.menu h2, .menu2 h2 ,  .contact h2{
     margin-bottom: 1rem;
 }
 .menu ol li{
