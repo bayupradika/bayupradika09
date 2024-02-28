@@ -159,6 +159,8 @@ body{
 }
 .about .row{
     display: flex;
+    justify-content: center;
+    align-items: center !important;
     padding: 1rem;
 }
 .about .row .about-img{
@@ -170,7 +172,6 @@ body{
 }
 .about .row .content{
     flex: 1 1 55rem;
-    padding: 0 1rem;
 }
 
 .about .row .content h3{
