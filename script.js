@@ -13,3 +13,16 @@ document.addEventListener('click', function(e){
         navbarNav.classList.remove('active');
     }
 });
+
+window.addEventListener('load', function () {
+    var loadingOverlay = document.getElementById('loading-overlay');
+    loadingOverlay.style.display = 'flex';
+    setTimeout(function() {
+        loadingOverlay.style.display = 'none';
+    }, 3000);
+});
+
+window.addEventListener('beforeunload', function () {
+    var loadingOverlay = document.getElementById('loading-overlay');
+    loadingOverlay.style.display = 'flex';
+});
