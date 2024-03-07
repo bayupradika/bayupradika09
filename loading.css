@@ -13,15 +13,12 @@
 
 .loading-logo {
     width: 50px;
-    animation: scaleAndSpin 2s forwards, slide 1s 2s linear forwards;
+    animation: scaleAndSpin 2s forwards, slide 1s 2s forwards;
 }
 
 @keyframes scaleAndSpin {
     0% {
         transform: scale(1) rotate(0deg);
-    }
-    50% {
-        transform: scale(2) rotate(180deg);
     }
     100% {
         transform: scale(4) rotate(360deg);
@@ -30,13 +27,9 @@
 
 @keyframes slide {
     0% {
-        transform: scale(3);
+        transform: scale(4) translate(0,0);
     }
     100% {
-        transform: scale(1);
-        justify-content: unset;
-        align-items: unset;
-        top: 0 !important;
-        left: 0 !important;
+        transform: scale(1) translate(-90%, 90%);
     }
 }
